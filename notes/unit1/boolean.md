@@ -14,3 +14,12 @@
 ##### De Morgan Laws
 * NOT(x AND y) = NOT(x) OR NOT(y)
 * NOT(x OR y) = NOT(x) AND NOT(y)
+
+* * *
+* Example
+NOT(NOT(x) AND NOT(x OR y)) = 
+NOT(NOT(x) AND (NOT(x) AND NOT(y))) = 
+NOT((NOT(x) AND NOT(x)) AND NOT(y)) = 
+NOT(NOT(x) AND NOT(y)) = 
+NOT(NOT(x)) OR NOT(NOT(y)) =
+x OR y
